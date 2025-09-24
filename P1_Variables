@@ -1,0 +1,2 @@
+f_name = input("Please enter your first name ")
+print("Hello,", f_name)
