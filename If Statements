@@ -14,3 +14,15 @@ if age >= 18:
 else:
     print("You are a minor")
 
+3)
+num = int(input("Enter a number: "))
+if num > 0:
+    print(num, "is positive")
+elif num < 0:
+    print(num, "is negative")
+elif num == 0:
+    print(num, "is equal to zero")
+
+4)
+num_1 = int(input("Enter a number: "))
+num_2 = int(input("Enter another number: "))
