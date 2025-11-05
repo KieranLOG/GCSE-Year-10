@@ -1,0 +1,16 @@
+Unit 7 Programming -> If Statements
+
+1)
+num = int(input("Enter a number: "))
+if num%2 == 0:
+    print(num, "is even")
+else:
+    print(num, "is odd")
+
+2)
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")
+
