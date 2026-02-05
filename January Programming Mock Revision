@@ -6,6 +6,14 @@ while num > 0:
     print(num)
 print("Coundown complete!")
 
+(4)
+starting_num = int(input("Enter a number: "))
+num = 1
+print(starting_num)
+for i in range (10):
+    print(starting_num * (num+1))
+    num = num + 1
+
 (5)
 username = input("Set a username: ")
 password = input("Set a password: ")
