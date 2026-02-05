@@ -1,3 +1,11 @@
+(1)
+name = input("Name: ")
+price = int(input("Price: £"))
+yorn = int(input("Percentage you have to pay: "))
+discount = (yorn / 100)
+new_price = price * discount
+print("For", name, "you must pay £", new_price)
+
 (3)
 num = int(input("Enter a starting number: "))
 print(num)
