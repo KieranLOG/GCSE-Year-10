@@ -1,0 +1,17 @@
+(3)
+num = int(input("Enter a starting number: "))
+print(num)
+while num > 0:
+    num = num - 1
+    print(num)
+print("Coundown complete!")
+
+(5)
+username = input("Set a username: ")
+password = input("Set a password: ")
+username_inputted = input("Enter your username: ")
+password_inputted = input("Enter your password: ")
+if (username_inputted == username) and (password_inputted == password):
+    print("Login successful.")
+else:
+    print("Incorrect details.")
